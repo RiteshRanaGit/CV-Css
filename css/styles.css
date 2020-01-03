@@ -7,7 +7,7 @@ body{
 .bar{
     position: relative;
     background-color: rgb(115, 136, 255);
-    height: 100px;
+    height: 50px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -16,7 +16,7 @@ body{
 h1{ 
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
-    font-size: 12.5rem;
+    font-size: 6.5rem;
     color: rgb(0, 177, 221);
     
        
@@ -29,20 +29,20 @@ h1{
 h2{ 
     margin: 0 auto 10px auto;
     color: rgb(0, 177, 221);
-    font-size: 4.375rem;
+    font-size: 2.375rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
-    padding-top: 4.375rem;
+    padding-top: 2.375rem;
 }
 h3{ 
     color: rgb(0, 177, 221);
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
 }
 
 p{  
     color: grey;
-    font-size: 30px;
+    font-size: 15px;
     
 }
 .top{
@@ -55,11 +55,11 @@ p{
 .middle{
     
     background-color: rgb(219, 255, 249);
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .bottom{
-    height: 100px;
+    height: 50px;
     width: 100%;
     background-color: rgb(136, 243, 74);
     position: fixed;
@@ -68,12 +68,12 @@ p{
     }
 
 .cloud_one{
-    width: 25.5rem;
+    width: 12.5rem;
     position: absolute;
     right: 0;
 }
 .cloud_two{
-    width: 25.5rem;
+    width: 12.5rem;
     position: absolute;
     left: 20px;
     top: 200px;
@@ -87,9 +87,9 @@ p{
     
 }
 .pro-image{
-    margin-top: 4.375rem;
-    height: 250px;
-    width: 250px;
+    margin-top: 2.375rem;
+    height: 175px;
+    width: 175px;
     border-radius: 100%;
 
 }
@@ -97,10 +97,10 @@ p{
     background-color: rgb(251, 255, 0);
 }
 .footer-link{
-    font-size: 30px;
+    font-size: 15px;
 }
 a{
-    font-size: 30px;
+    font-size: 15px;
 }
 hr{ margin-bottom: 0;
     padding-bottom: 10px;
@@ -113,7 +113,7 @@ hr{ margin-bottom: 0;
 .bar-img{
     
     height: 100%;
-    width: 100px;
+    width: 50px;
     position: absolute;
 }
 .small-img{
@@ -141,4 +141,6 @@ hr{ margin-bottom: 0;
     
     width: 30%;
 }
-   
+.bottom-p{
+    margin-top: 0;
+}
