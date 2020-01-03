@@ -18,7 +18,7 @@ h1{
     font-family: 'Sacramento', cursive;
     font-size: 12.5rem;
     color: rgb(0, 177, 221);
-    
+    z-index: 1;
        
 }
 h2{ 
