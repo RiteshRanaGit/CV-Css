@@ -1,0 +1,140 @@
+body{
+    
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.bar{
+    position: relative;
+    background-color: rgb(115, 136, 255);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+h1{ 
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 12.5rem;
+    color: rgb(0, 177, 221);
+    
+       
+}
+h2{ 
+    margin: 0 auto 10px auto;
+    color: rgb(0, 177, 221);
+    font-size: 4.375rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-top: 4.375rem;
+}
+h3{ 
+    color: rgb(0, 177, 221);
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{  
+    color: grey;
+    font-size: 30px;
+    
+}
+.top{
+    
+    background-color: rgb(149, 234, 255);
+    padding-top: 100px;
+    
+       
+ }
+.middle{
+    
+    background-color: rgb(219, 255, 249);
+    margin-bottom: 100px;
+}
+
+
+.bottom{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(136, 243, 74);
+    position: fixed;
+    bottom: 0;
+
+    }
+
+.cloud_one{
+    width: 25.5rem;
+    position: absolute;
+    right: 0;
+}
+.cloud_two{
+    width: 25.5rem;
+    position: absolute;
+    left: 20px;
+    top: 200px;
+}
+
+.mountain{
+    
+    height: auto;
+    width: 100%;
+    
+    
+}
+.pro-image{
+    margin-top: 4.375rem;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+
+}
+.pro-image:hover{
+    background-color: rgb(251, 255, 0);
+}
+.footer-link{
+    font-size: 30px;
+}
+a{
+    font-size: 30px;
+}
+hr{ margin-bottom: 0;
+    padding-bottom: 10px;
+    border-color: rgb(92, 143, 252);
+    border-width: 10px;
+    display: block;
+    border-style: dotted none none;
+    width: 5%;
+}
+.bar-img{
+    
+    height: 100%;
+    width: 100px;
+    position: absolute;
+}
+.small-img{
+   
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    background-color: rgb(15, 41, 185);
+}
+.small-img:hover{
+    background-color: rgb(255, 230, 9);
+}
+.welcom{
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    color: rgb(15, 41, 185);
+}
+.welcom:hover{
+    color: rgb(255, 255, 0);
+}
+.welcom-div{
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+    width: 30%;
+}
+   
