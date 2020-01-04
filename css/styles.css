@@ -147,6 +147,12 @@ hr{ margin-bottom: 0;
     margin-top: 0;
 }
 .skill-img{
-    width: auto;
+    height: 175px;
+    width: 175px;
 
+
+}
+.skill-imge-continer{
+    width: 50%;
+    margin: 0 auto 0 auto;
 }
