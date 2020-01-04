@@ -7,7 +7,7 @@ body{
 .bar{
     position: relative;
     background-color: rgb(115, 136, 255);
-    height: 50px;
+    height: 70px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -57,11 +57,12 @@ p{
 .middle{
     
     background-color: rgb(219, 255, 249);
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     width: 100%;
 }
 
 .bottom{
+    padding: 10px;
     height: 50px;
     width: 100%;
     background-color: rgb(136, 243, 74);
@@ -103,12 +104,17 @@ p{
 .footer-link{
     font-size: 15px;
 }
-a{
+a{  text-decoration: none;
+    padding: 0px 10px;
+    color: rgb(0, 177, 221);
     font-size: 15px;
+}
+a:hover{
+    color: rgb(149, 234, 255);
 }
 hr{ margin-bottom: 0;
     padding-bottom: 10px;
-    border-color: rgb(92, 143, 252);
+    border-color: rgb(0, 177, 221);
     border-width: 5px;
     display: block;
     border-style: dotted none none;
@@ -123,7 +129,7 @@ hr{ margin-bottom: 0;
 .small-img{
    
     height: 100%;
-    width: 100%;
+    width: 130%;
     border-radius: 100%;
     background-color: rgb(15, 41, 185);
 }
@@ -145,8 +151,9 @@ hr{ margin-bottom: 0;
     
     width: 30%;
 }
-.bottom-p{
-    margin-top: 0;
+.copy-right{
+    color:rgb(205, 245, 255) ;
+    margin: 10px 0;
 }
 .skill-img{
     height: 175px;
